@@ -3,48 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./images/logo.png" >
     <title>Proyecto final JRODEIRO</title>
 </head>
-<body>    
+<body onscroll="cambiarFondoNav()">
+
     <nav>
         <a href='/'>
-            <img src="./images/home.png" alt="home" style="height:50px;"></img>
+            <img src="./images/home.png" style="height:50px;"></img>
         </a>
         <ul class="menu">
-            <li class="item-menu"><a class='item-link' href='/historia.html'>Historia</a></li>
-            <li class="item-menu"><a class='item-link' href='/poneraprueba.html'>Juguemos</a></li>
+            <li class="item-menu"><a class='item-link' href='/historia.html'>HISTORIA</a></li>
+            <li class="item-menu"><a class='item-link' href='/juguemos.html'>JUGUEMOS</a></li>
         </ul>
     </nav>
-  <header>
-        <h1 class="titulo">Programación e Historia</h1> 
+
+    <header class="header" style="background-image: url(./images/fondo.jpg)">
+        <h1 class="titulo">PROGRAMACION E HISTORIA</h1> 
     </header>
+
     <main>
-        <h2>Contenido</h2>   
-        <section class="cont-padre">
-                <div class="card">
-                    <img class="img-card" src="./images/historia-programacion.jpg" alt="imagen=producto">
-                    <p class="desc-card">Conozcamos un poco sobre la historia de la programacion </p>
-                    <a class='boton-ver' href='/historia.html' style='color:#F0F5E4'>Ir a Historia</a>
+        <h2>CONTENIDO</h2>   
+        <section class="contenido">
+                <div class="tarjeta">
+                    <img class="img-tarjeta" src="./images/historia-programacion.jpg" alt="imagendeproducto">
+                    <p class="desc-tarjeta">Conozcamos un poco sobre la historia de la programacion </p>
+                    <a class='boton-tarjeta' href='/historia.html'>Ir a Historia</a>
                 </div>
-
-                    <div class="card">
-                        <img class="img-card" src="./images/img2.jpg" alt="imagen=producto">
-                        <p class="desc-card">Vamos a jugar un poco utilizando metodos aprendidos en clase</p>
-                        <a class='boton-ver' href='/poneraprueba.html' style='color:#F0F5E4'>Ir a juego</a>
-                    </div>
-                    
+                <div class="tarjeta">
+                    <img class="img-tarjeta" src="./images/img2.jpg" alt="imagen=producto">
+                    <p class="desc-tarjeta">Vamos a jugar un poco utilizando metodos aprendidos en clase</p>
+                    <a class='boton-tarjeta' href='/poneraprueba.html'>Ir a juego</a>
+                </div>
         </section>
-
    </main>
 
    <footer>
-        <div class="footer-left">
+        <div class="footerizq">
         <img class="logo" src="./images/logo.png" alt="logo" style="height: 50px;">
-            <h3 class="titulo titulo-foot">PROGRAMACION E HISTORIA </h3>
+            <h3 class="titulo">PROGRAMACION E HISTORIA</h3>
         </div>
     </footer>
-    <script src="./script1.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 </html>
